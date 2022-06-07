@@ -25,8 +25,4 @@ def test_spend_calories():
     calory.spend_calories(10)
     assert calory.quantity == 10
 
-# Realizar un test que no de un error si queremos gastar mas calorias de las que realmente tenemos
-def test_spend_calories_raises_exception_on_insufficient_amount():
-    calory = calorias.Calorias()
-    with pytest.raises(calorias.InsufficientAmount):
-        calory.spend_calories(100)
+
