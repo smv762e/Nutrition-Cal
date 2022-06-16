@@ -32,7 +32,7 @@ pipeline {
             agent any
            environment {
                 VOLUME = '$(pwd)/sources:/src'
-                IMAGE = 'cdrx/pyinstaller-linux:python2'
+                IMAGE = 'cdrx/pyinstaller-windows:python2'
             }
             steps {
                 echo "El path es: ${VOLUME} "
