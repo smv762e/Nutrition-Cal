@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 InsufficientAmount exception that we expect to raise when the user tries to spend more calories than they have in their body system.
 """
